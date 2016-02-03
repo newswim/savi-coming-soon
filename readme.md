@@ -1,7 +1,8 @@
 # diem-coming-soon
 
 A &#34;Coming Soon&#34; landing page for SAVI Controls
-Create by Parth Shah, hosted on [CodePen](http://codepen.io/parthshah000/pen/WQVxJo)
+
+Design created by Parth Shah, hosted on [CodePen](http://codepen.io/parthshah000/pen/WQVxJo)
 
 ### Setup
 
