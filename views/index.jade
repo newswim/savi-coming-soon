@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    video#background(autoplay='', loop='', muted='', poster='screenshot.jpg')
+      source(src='http://coming-sssoon.paperplane.io/video/time.mp4', type='video/mp4')
+      // <source src="http://i.istockimg.com/video_passthrough/60458542/153/60458542.mp4" type="video/mp4">
+    .main
+      #content
+        .title
+          span SAVI CONTROLS
+        p coming soon
+        section
+          ul#countdown
+            li
+              span.days.timenumbers 01
+              p.timeRefDays.timedescription days
+            li
+              span.hours.timenumbers 00
+              p.timeRefHours.timedescription hours
+            li
+              span.minutes.timenumbers 00
+              p.timeRefMinutes.timedescription minutes
+            li
+              span.seconds.timenumbers.yellow-text 00
+              p.timeRefSeconds.timedescription seconds
+    script(src='http://codepen.io/assets/libs/fullpage/jquery.js')
+    script(src='js/vendor.js')
